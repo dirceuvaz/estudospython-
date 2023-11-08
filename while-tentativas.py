@@ -11,7 +11,7 @@ while(tentativas < 3):
 
     if(numInfoConvert == numeroSecreto ):
         print('Você acertou o número, a fechadura abriu!')
-        print('Tentativas utilizadas foram: ',tentativas)
+        print('Tentativas utilizadas foram:{} '.format(tentativas,tentativas))
         break
     else:
         print('Você errou !! Tente novamente!')
